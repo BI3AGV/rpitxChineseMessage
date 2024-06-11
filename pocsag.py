@@ -1,11 +1,11 @@
 import os
 
-charString = ""
-
 freq = "152650000"  #Frequency in Hz
 rate = "1200"  #POCSAG rate in bps
 function = "3"  #function select
 repeat = "1" #repeat times
+
+charString = ""
 
 def convertSpecialChar(c):
     #print(c)
